@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <form action="#" class="form">
+        <label for="birthdate">Введите дату рождения:</label>
+        <input type="date" id="birthdate" name="birthdate">
+
+        <div class="checkbox">
+            <input type="radio" id="today" name="day" value="today" checked>
+            <label for="today">Сегодня</label>
+
+            <input type="radio" id="tomorrow" name="day" value="tomorrow">
+            <label for="tomorrow">Завтра</label>
+
+            <input type="radio" id="dayAfterTomorrow" name="day" value="dayAfterTomorrow">
+            <label for="dayAfterTomorrow">Послезавтра</label>
+        </div>
+    </form>
+
+    <button id="generate">Получить гороскоп</button>
+
+    <p id="horoscope"></p>
+</body>
+</html>

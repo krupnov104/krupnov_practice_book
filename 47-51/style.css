@@ -1,0 +1,31 @@
+#field td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	text-align: center;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red {
+	background: red;
+}
+
+.green {
+	background: green;
+}
+
+.blue {
+	background: blue;
+}
+
+p {
+    font-family: sans-serif;
+}
